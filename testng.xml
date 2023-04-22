@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Practice Suite" verbose="1" parallel="true">
+	<test name="Test Basics 1">
+		<classes>
+			<class name="MMA.MMA_TS001">
+				<methods>
+					<include name="UserLogin"></include>
+					<include name="NavigateToMetadataManagementPage"></include>
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+	<!-- Test -->
+</suite> <!-- Suite -->
